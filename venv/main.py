@@ -1,9 +1,9 @@
 import pandas as pd
-from statsmodels.tsa.arima.model import ARIMA
+from model.py import ARIMA
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import numpy as np
 import matplotlib.pyplot as plt
-from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+from tsaplot.py import plot_acf, plot_pacf
 import streamlit as st
 import plotly.graph_objects as go
 import plotly.express as px
